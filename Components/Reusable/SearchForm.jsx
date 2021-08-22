@@ -9,7 +9,7 @@ export default function SearchForm(props) {
     name: "",
   });
 
-  //======ONCHANGE FOR Change passWord========
+  //======Onchange for form data========
   const {name} = searchData;
   const onChangeHandler = e => {
     setSearchData({
